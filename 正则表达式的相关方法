@@ -1,0 +1,13 @@
+// 练习2月14日
+			var str = 'regular expression = regexp';
+			var regexp1 = /lar/;
+			var regexp2 = /\sexp/;
+			var regexp3 = /lar\sexp/;	
+			var result = regexp1.test(str) +"/" + regexp2.test(str) + "/" + regexp3.exec(str)[0] +"/" +regexp3.exec(str)[0] + "/";
+			console.log(result);
+// 练习2月15日
+			var str33 = '一个"普通字符"在匹配字符串的时候，匹配与它相同的一个字符';
+	
+			var regexp22 = /"普通字符"/;
+			var result11 = regexp22.test(str33) + "/" + regexp22.test(str33) + "/" + regexp22.exec(str33) + "/" + regexp22.exec(str33)+"/";
+			console.log(result11);
